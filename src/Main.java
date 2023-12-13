@@ -35,9 +35,9 @@ public class Main {
         }
 
 
-        System.out.println(" ");
+        System.out.println("vad är 1+1 ");
         String q3 = scanner.nextLine();
-        String svar_q3=(" ");
+        String svar_q3=("2");
 
         if (q3.equals(svar_q3)) {
             antalscore++;
@@ -46,9 +46,9 @@ public class Main {
             antal_fel--;
 
         }
-        System.out.println(" ");
+        System.out.println(" vad är 2+2");
         String q4 = scanner.nextLine();
-        String svar_q4=(" ");
+        String svar_q4=("4");
 
         if (q4.equals(svar_q4)) {
             antalscore++;
