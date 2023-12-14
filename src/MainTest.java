@@ -6,8 +6,9 @@ class MainTest {
 
     @Test
     void main() {
-
-assertEquals(1,1);
+int Expected =1;
+int actual = 1;
+assertEquals(Expected,actual);
     }
 
 }
