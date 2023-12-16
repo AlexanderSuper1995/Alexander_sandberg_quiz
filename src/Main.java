@@ -1,14 +1,11 @@
 import java.util.Scanner;
-
+import javax.swing.JFrame;
 public class Main {
     public static void main(String[] args) {
-     count countObjs = new count ();
-     print printobjs = new print ();
-Scanner scanner = new Scanner (System.in);
-String Input  =  scanner.nextLine();
-printobjs.endprint();
-countObjs.antal_fel();
-
-System.out.println(Input);
+JFrame window = new JFrame();
+window.setTitle("Test");
+window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+window.setSize(400,400);
+window.setVisible(true);
     }
 }
