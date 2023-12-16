@@ -1,7 +1,4 @@
 public class count {
-
-
-
     public static int antalscore =0;
     public static int antal_fel =0;
     public void antal_fel(){
@@ -11,6 +8,3 @@ public class count {
         antalscore++;
     }
 }
-
-//antalscore++;
-//antal_fel--;
